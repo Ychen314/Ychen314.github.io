@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teh Yu Chen — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-name" href="#hero">Teh Yu Chen</a>
+  <ul class="nav-links">
+    <li class="hide-mobile"><a href="#about">About</a></li>
+    <li class="hide-mobile"><a href="#projects">Projects</a></li>
+    <li><a class="btn-resume" href="resume.html" download>⬇ Resume</a></li>
+  </ul>
+</nav>
+
+<section id="hero">
+  <div class="hero-text fade-up">
+    <span class="hero-label">Searching for Internship Opportunities</span>
+    <h1 class="hero-name"><span>Teh</span> Yu Chen</h1>
+    <p class="hero-tagline">Web Technology student at UTHM with a CGPA of 3.93. Passionate about building dynamic and responsive websites.</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View My Work</a>
+      <a href="#about" class="btn-outline">About Me</a>
+    </div>
+  </div>
+  <div class="hero-image-wrap fade-up" style="transition-delay:0.15s">
+    <div class="profile-frame">
+      <div class="profile-img-placeholder">
+        <img id="profileImg" src="image/profilePhoto.jpg" alt="Teh Yu Chen"/>
+        <span class="placeholder-icon">🖼</span>
+        <span class="placeholder-text">Your Photo Here</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider"/>
+
+<section id="about">
+  <div class="fade-up">
+    <p class="section-label">Who I Am</p>
+    <h2 class="section-title">About Me</h2>
+    <div class="about-body">
+      <p>Web Technology student at Universiti Tun Hussein Onn Malaysia (UTHM) with a CGPA of 3.93 and a strong foundation in HTML, CSS, PHP, and JavaScript. Experienced in building dynamic and responsive websites through academic and personal projects. Passionate about technology, detail-oriented, and currently seeking a 24-week internship from August 2026 to January 2027.</p>
+    </div>
+    <div class="skills-grid">
+      <span class="skill-tag">HTML</span><span class="skill-tag">CSS</span><span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">PHP</span><span class="skill-tag">Java</span><span class="skill-tag">Flutter</span>
+      <span class="skill-tag">C#</span><span class="skill-tag">MySQL</span><span class="skill-tag">GitHub</span>
+      <span class="skill-tag">Figma</span><span class="skill-tag">WordPress</span><span class="skill-tag">Canva</span>
+    </div>
+  </div>
+  <div class="fade-up" style="transition-delay:0.12s">
+    <div class="about-stats">
+      <div class="stat-box"><div class="stat-number">5+</div><div class="stat-label">Projects</div></div>
+      <div class="stat-box"><div class="stat-number">3.93</div><div class="stat-label">CGPA</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <p class="section-label">What I've Built</p>
+  <h2 class="section-title">Projects</h2>
+
+  <div class="carousel-container">
+    
+    <button class="carousel-btn left-btn" id="slideLeft" aria-label="Scroll left">←</button>
+    
+    <div class="projects-grid" id="projectsSlider">
+      
+      <div class="project-card fade-up">
+        <a href="project-secureride.html" class="project-card-link">
+          <div class="project-screenshot">
+            <img src="image/secure_ride_profile.jpg" alt="Project 1"/>
+            <span class="screenshot-placeholder-icon">🖥</span>
+            <span class="screenshot-placeholder-text">Screenshot Here</span>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Final Year Project   | Mobile App  | Web Admin Portal</span>
+            <h3 class="project-title">Car Pooling System</h3>
+            <p class="project-desc">A centralized car pooling platform for UTHM students.</p>
+            <div class="project-tech">
+              <span class="tech-pill">Flutter</span><span class="tech-pill">Dart</span><span class="tech-pill">Firebase</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card fade-up">
+        <a href="project-stock.html" class="project-card-link">
+          <div class="project-screenshot">
+            <img src="image/stock_management_system_profile.jpg" alt="Project 2"/>
+            <span class="screenshot-placeholder-icon">🖥</span>
+            <span class="screenshot-placeholder-text">Screenshot Here</span>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Web App</span>
+            <h3 class="project-title">Stock Management System</h3>
+            <p class="project-desc">A stock manage solution for Kluang Kolo Mee Restaurant.</p>
+            <div class="project-tech">
+              <span class="tech-pill">PHP</span><span class="tech-pill">MySQL</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card fade-up">
+        <a href="project-vibehire.html" class="project-card-link">
+          <div class="project-screenshot">
+            <img src="image/vibeHire_profile.jpg" alt="Project 3"/>
+            <span class="screenshot-placeholder-icon">🖥</span>
+            <span class="screenshot-placeholder-text">Screenshot Here</span>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Web App</span>
+            <h3 class="project-title">Job Portal System</h3>
+            <p class="project-desc">A job portal for connecting employers and job seekers.</p>
+            <div class="project-tech">
+              <span class="tech-pill">PHP</span><span class="tech-pill">Laravel</span><span class="tech-pill">MySQL</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card fade-up">
+        <a href="project-recipe.html" class="project-card-link">
+          <div class="project-screenshot">
+            <img src="image/forknpen_profile.jpg" alt="Project 4"/>
+            <span class="screenshot-placeholder-icon">🖥</span>
+            <span class="screenshot-placeholder-text">Screenshot Here</span>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Web App</span>
+            <h3 class="project-title">Recipe Sharing Platform</h3>
+            <p class="project-desc">A platform for sharing and discovering new recipes.</p>
+            <div class="project-tech">
+              <span class="tech-pill">C#</span><span class="tech-pill">.NET MVC</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card fade-up">
+        <a href="project-ppki.html" class="project-card-link">
+          <div class="project-screenshot">
+            <img src="image/ppki_profile.jpg" alt="Project 5"/>
+            <span class="screenshot-placeholder-icon">🖥</span>
+            <span class="screenshot-placeholder-text">Screenshot Here</span>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Mobile App</span>
+            <h3 class="project-title">MarketPlace Application</h3>
+            <p class="project-desc">A mobile e-commerce application to empower students in the PPKI to sell their products digitally.</p>
+            <div class="project-tech">
+              <span class="tech-pill">Flutter</span><span class="tech-pill">Dart</span><span class="tech-pill">Firebase</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    </div>
+
+    <button class="carousel-btn right-btn" id="slideRight" aria-label="Scroll right">→</button>
+    
+  </div>
+</section>
+
+<section id="contact">
+  <div class="fade-up">
+    <p class="section-label">My Contact</p>
+    <h2 class="section-title">Let's Connect</h2>
+    <p class="contact-intro">Kindly inform me for internship opportunities via WhatsApp or Email. Thanks a lot!</p>
+    <p class="contact-intro">PhoneNumber/WhatsApp : +60-166391090</p>
+    <p class="contact-intro">Email : tehyuchen0314@gmail.com</p>
+    <div class="contact-links">
+      <a class="contact-link" href="mailto:tehyuchen0314@gmail.com">✉ Email Me</a>
+      <a class="contact-link" href="www.linkedin.com/in/teh-yu-chen-b32431322" target="_blank">in LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Teh Yu Chen</span>
+  <span>📞: +60-166391090</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
